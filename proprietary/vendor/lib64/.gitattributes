@@ -1,0 +1,7 @@
+
+# Vendor export: portable Git LFS storage rules
+"/.gitattributes" -filter -diff -merge -text -working-tree-encoding
+"/libCB.so" filter=lfs diff=lfs merge=lfs -text -working-tree-encoding
+"/libQnnHtpPrepare.so" filter=lfs diff=lfs merge=lfs -text -working-tree-encoding
+"/libadreno_compiler_cl.so" filter=lfs diff=lfs merge=lfs -text -working-tree-encoding
+"/libllvm-qgl.so" filter=lfs diff=lfs merge=lfs -text -working-tree-encoding

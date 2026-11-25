@@ -1,0 +1,4 @@
+
+# Vendor export: portable Git LFS storage rules
+"/.gitattributes" -filter -diff -merge -text -working-tree-encoding
+"/sdz_model.bin" filter=lfs diff=lfs merge=lfs -text -working-tree-encoding
